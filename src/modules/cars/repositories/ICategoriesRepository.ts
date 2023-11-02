@@ -11,4 +11,4 @@ interface ICategoriesRepository {
   create({ name, description }: ICreateCategoryDTO): void;
 }
 
-export { ICategoriesRepository, ICreateCategoryDTO as ICreateCategory };
+export { ICategoriesRepository, ICreateCategoryDTO };
